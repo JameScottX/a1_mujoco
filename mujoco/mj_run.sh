@@ -1,0 +1,1 @@
+./build/a1_mujoco /home/jame/Data/a1_mujoco/mujoco/a1/xml/a1.xml

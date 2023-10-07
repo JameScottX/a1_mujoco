@@ -1,0 +1,3 @@
+/home/jame/Data/a1_mujoco/mujoco/build/CMakeFiles/a1_mujoco.dir
+/home/jame/Data/a1_mujoco/mujoco/build/CMakeFiles/edit_cache.dir
+/home/jame/Data/a1_mujoco/mujoco/build/CMakeFiles/rebuild_cache.dir

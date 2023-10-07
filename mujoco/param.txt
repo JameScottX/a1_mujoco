@@ -1,0 +1,35 @@
+body_k 800. 800. 2400. 2000. 3000. 800.0
+body_d 50. 50. 100. 70. 100. 50.
+
+swleg_k 80
+swleg_d 0.8
+  
+Q 1.
+R 1.
+
+// body_k_lipm 0. 0. 3000. 3000. 3000. 800.0
+// body_d_lipm 0. 0. 100. 200. 200. 40.
+
+body_k_hop 0. 0. 3000. 1000. 1000. 800.0
+body_d_hop 0. 0. 100. 90. 90. 40.
+
+body_k_lipm 00. 00. 3000. 3000. 3000. 800.0
+body_d_lipm 20. 20. 100. 200. 200. 40.
+
+dyna_pp_k 15.0
+
+// CTL_PARAM 参数
+peroid 0.5
+lipm_xs 0.30001
+lipm_ys 0.00001
+swing_height 0.2
+
+// 数据监视部分
+rec_sta_end_time 2 6
+is_rec 0
+
+// __XX 类型参数表示不可修改,是系统自动生成参数
+CoG_indentification 1.000000
+__cog_bias -0.017626 -0.007142 -0.012767
+
+END
