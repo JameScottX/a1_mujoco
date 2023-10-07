@@ -13,7 +13,7 @@ include_directories(
 
 link_directories(./mujoco210/bin)
 add_executable(a1_mujoco ${MJ_SIM_LIST} ./mujoco210/include/uitools.c 
-            # ${SRC_LIST}
+            ${SRC_LIST}
 )
 
 find_package(Eigen3 REQUIRED)

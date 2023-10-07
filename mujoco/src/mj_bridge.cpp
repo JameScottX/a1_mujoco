@@ -142,7 +142,6 @@ void mj_main_loop(mjModel *m, mjData *d, double time_step_){
 
 
 //
-
     driver_sim_input(m,d);
 }
 
@@ -157,11 +156,9 @@ void body_sim_hold(mjModel *m, mjData *d){
         m->dof_damping[i] = 1e4;
         m->qpos_spring[i] = d->qpos[i];
     }
-
     // Set damping for body rotation joint
     for (short i = 3; i < 6; ++i)
         m->dof_damping[i] = 1e3;
-
 }
 
 
@@ -171,7 +168,6 @@ void body_sim_release(mjModel *m, mjData *d){
         m->jnt_stiffness[i] = 0;
         m->dof_damping[i] = 0;
     }
-
     // Zero damping for body rotation joint
     for (short i = 3; i < 6; ++i)
         m->dof_damping[i] = 0;
@@ -186,12 +182,10 @@ void driver_sim_input(const mjModel* m, mjData *d){
         double ratio = m->actuator_gear[6 * m->sensor_objid[id]];
         d->ctrl[id] = toqsf[i]/ratio;
     }
-
 }
 
 
 void mj_infotext(char* title, char* content){
-
 }
 
 
